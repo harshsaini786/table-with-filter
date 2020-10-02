@@ -1,0 +1,46 @@
+.App {
+  width: 75%;
+  margin: 10px auto;
+}
+
+.tableData {
+  margin-top: 10px;
+}
+
+.id {
+  width: 2%;
+  text-align: right;
+}
+
+.amount {
+  width: 35%;
+  text-align: right;
+}
+
+.date {
+  width: 35%;
+  text-align: right;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.AmountFilter{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.input-range {
+    width: 89% !important;
+    margin-right: 10px;
+}
+
+.textCenter{
+  text-align: center;
+}
